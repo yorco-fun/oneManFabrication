@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>My Contacts</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240524151856">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="icon-menu"><span></span></button>
+				<a href="index.html" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<div class="menu__box">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+								<li class="menu__item"><a href="portfolio.html" class="menu__link">My Works</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Contacts</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__image-block image-block">
+						<h2 class="image-block__title title">My <span>contacts</span></h2>
+						<div class="image-block__background-ibg">
+							<picture><source srcset="img/contacts/01.webp" type="image/webp"><img src="img/contacts/01.png" alt="Gold car"></picture>
+						</div>
+					</div>
+					<div class="contacts__items">
+						<div class="contacts__item contacts__item--social">
+							<div class="contacts__video">
+								<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fdmytro.stakhiv.9%2Fvideos%2F7206587249408476%2F&show_text=false&width=267&t=0&autoplay=1&loop=1" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
+								</iframe>
+							</div>
+							<div class="contacts__social">
+								<a href="https://www.instagram.com/onemanfabrication/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank" class="social__icon _icon-instagram"></a>
+								<a href="https://www.facebook.com/dmytro.stakhiv.9" target="_blank" class="social__icon _icon-facebook"></a>
+							</div>
+						</div>
+						<div class="contacts__item contacts__item--schedule">
+							<div class="contacts__row">
+								<div class="contacts__text">Monday - Saturday</div>
+								<div class="contacts__value">09:00 - 19:00</div>
+							</div>
+							<div class="contacts__row">
+								<div class="contacts__text">Sunday</div>
+								<div class="contacts__value">Beer time!</div>
+							</div>
+						</div>
+						<div class="contacts__item contacts__item--info">
+							<div class="contacts__row _icon-location">6808 Hiram Dr, Ottawa, Canada</div>
+							<div class="contacts__row _icon-phone"><a href="tel:6138591871">613-859-1871</a></div>
+							<div class="contacts__row _icon-mail"><a href="mailto:onemanfabrication@gmail.com">onemanfabrication@gmail.com</a></div>
+						</div>
+						<div class="contacts__item contacts__item--location">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.9631869518521!2d-75.57862439260404!3d45.25741718315522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccde1aba695b0e9%3A0x8f5b043231f057b9!2zNjgwOCBIaXJhbSBEciwgT3R0YXdhLCBPTiBLNFAgMUExLCDQmtCw0L3QsNC00LA!5e0!3m2!1suk!2sua!4v1716450073915!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<div class="contacts__bg-ibg">
+							<picture><source srcset="img/contacts/bg-img.webp" type="image/webp"><img src="img/contacts/bg-img.png" alt="Car"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- <footer class="footer">
+	<div class="footer__info">
+		<div class="footer__row">
+			<a href="#" class="footer__link">Privacy Policy</a>
+			<a href="#" class="footer__link">Terms of Service</a>
+		</div>
+		<div class="footer__row">
+			<div class="footer__text">&copy; 2024 One Man Fabrication. All rights protected.</div>
+		</div>
+	</div>
+</footer> -->
+	</div>
+	<!-- Стилі для body -->
+	<style>
+		.lock body {
+			overflow: hidden;
+			touch-action: none;
+			overscroll-behavior: none;
+		}
+
+		.loading body {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.loaded body {
+			transition: opacity 0.5s ease 0s;
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
+	<div id="fls-preloader">
+		<!-- Документація: https://template.fls.guru/template-docs/modul-preloader.html -->
+		<!-- Стилі для прелоадера -->
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+				border: 0px;
+			}
+
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
+			}
+
+			html {
+				overflow: hidden;
+				touch-action: none;
+				overscroll-behavior: none;
+				background-color: #0a0b0a;
+			}
+
+			/* Головний блок */
+			.fls-preloader {
+				pointer-events: none;
+				z-index: -1;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			/* Блок з елементами */
+			.fls-preloader__body {
+				padding: 0.93rem;
+				width: 120px;
+				height: 120px;
+				display: flex;
+				flex-direction: column;
+				background: url('img/wheel.svg') center center / 100% no-repeat;
+				animation: circle 1s infinite linear;
+			}
+
+			@keyframes circle {
+				0% {
+					transform: rotate(0deg);
+				}
+
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+
+			/* Блок з лічильником */
+			.fls-preloader__counter {
+				font-size: 10rem;
+			}
+
+			/* Прогресбар */
+			.fls-preloader__line {}
+
+			/* Лінія прогресбару */
+			.fls-preloader__line span {
+				/* display: inline-block;
+			transition: width 0.2s ease;
+			height: 0.8rem;
+			background-color: #c48961; */
+			}
+		</style>
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderTemplate = `
+					<div class="fls-preloader">
+						<div class="fls-preloader__body">
+
+							<div class="fls-preloader__line"><span></span></div>
+						</div>
+					</div>`;
+					document.querySelector('html').insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							counter >= 100 ? addLoadedClass() : null;
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 500);
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<script src="js/app.min.js?_v=20240524151856"></script>
+</body>
+
+</html>
